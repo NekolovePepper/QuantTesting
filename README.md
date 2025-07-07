@@ -1,4 +1,4 @@
-# RL4Portfolio-selection
+# Quant Testing: Portfolio-selection
 
 本项目实现了基于混合专家（MoE）强化学习的自适应金融交易策略，支持多种基线策略与深度强化学习方法。
 
@@ -16,7 +16,7 @@
 1. 安装依赖：
    ```bash
    conda env create -f environment.yml
-   conda activate rl4portfolio
+   conda activate QuantTesting
    ```
 2. 数据准备与特征工程：
    ```bash
