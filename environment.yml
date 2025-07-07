@@ -1,4 +1,4 @@
-name: rl4portfolio
+name: QuantTesting
 channels:
   - conda-forge
   - defaults
