@@ -32,11 +32,6 @@
    python src/main.py train
    python src/main.py evaluate
    ```
-   
-## 参考文档
-
-- 详细背景与方法见 [docs/Background.md](docs/Background.md)、[docs/开题报告.md](docs/开题报告.md)
-- 项目进展与计划见 [docs/README.md](docs/README.md)
 
 ## 联系方式
 
