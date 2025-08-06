@@ -1,34 +1,34 @@
 # Quant Testing: Portfolio-selection
 
-本项目目标实现基于混合专家（MoE）强化学习的自适应金融交易策略，支持多种基线策略与深度强化学习方法。
-是初学者纯自学背景下的一次探索。
+This project aims to develop an adaptive financial trading strategy based on a Mixture-of-Experts (MoE) reinforcement learning architecture with help of vibe coding, supporting multiple baseline strategies and deep RL methods. It represents a self‑guided learning exploration by a beginner in constructing a reinforcement learning framework tailored for quant trading.
 
-## 目录结构
+## Directory Structure
 
-- `data/`：原始及特征工程后的股票数据
-- `dev/`：开发与测试脚本
-- `docs/`：项目文档与进展
-- `logs/`：训练与评估日志
-- `models/`：保存的模型权重
-- `results/`：回测与评估结果
-- `src/`：核心源代码（含 baseline、rl、plot、core、evaluation、hyperparameter、utils 等子模块）
-## 快速开始
+- `data/`： raw and feature‑engineered stock data
+- `dev/`：development and testing scripts
+- `docs/`：project documentation and progress notes
+- `logs/`：training and evaluation logs
+- `models/`：saved model weights
+- `results/`：backtest outcomes and evaluation reports
+- `src/`：core source code, including submodules for baseline strategies, RL agents, plotting, core logic, evaluation, hyperparameters, utilities, etc.
+- 
+## Start
 
-1. 安装依赖：
+1. Install dependencies：
    ```bash
    conda env create -f environment.yml
    conda activate QuantTesting
    ```
-2. 数据准备与特征工程：
+2. Prepare data and run feature engineering
    ```bash
    python src/download_data.py
    python src/feature_engineering.py
    ```
-3. 运行基线策略评估：
+3. Evaluate baseline strategies：
    ```bash
    python src/main.py strategy
    ```
-4. 训练与评估 RL 代理：
+4. Train and evaluate RL agent：
    ```bash
    python src/main.py train
    python src/main.py evaluate
