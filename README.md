@@ -34,4 +34,6 @@ This project aims to develop an adaptive financial trading strategy based on a M
    python src/main.py evaluate
    ```
 
+## Notice
 
+This project is purely an experimental exploration of combining various reinforcement learning (RL) methods with quantitative trading strategies to implement a Mixture-of-Experts (MoE) framework. It is intended for research purposes only and does not constitute any form of investment advice or recommendation.
